@@ -1,0 +1,127 @@
+.data{
+    border: 2px solid red;
+    padding: 5rem 0;
+    height: 80vh;
+    background: #3B065E;
+}
+.data-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.data-imagebox h1{
+    /* border: 2px solid green; */
+    font-size: 6rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.data-imagebox{
+/* flex: 1 1 600px; */
+width: 790px;
+height: 620px;
+padding: 3rem;
+
+}
+.data-imagebox img{
+    width: 100%;
+    /* height: 100%; */
+    object-position: center;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    
+
+}
+.data-textbox{
+/* flex: 1 1 590px; */
+
+}
+.textbox-1{
+width: 350px;
+height: 281px;
+padding: 3rem;
+
+}
+.textbox-1 h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    color: white;
+}
+.textbox-1 p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    /* border: 2px solid black; */
+    /* width: 50%;
+    margin-left: 5rem; */
+    color: white;
+}
+
+.textbox-2{
+    width: 350px;
+    height: 281px;
+    padding: 3rem;
+    
+    }
+    .textbox-2 h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        color: white;
+    }
+    .textbox-2 p {
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+        /* border: 2px solid black; */
+        /* width: 50%;
+        margin-left: 5rem; */
+        color: white;
+    }
+
+.btn-data{
+    margin-bottom: 5rem;
+    /* margin-left: 5rem; */
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+
+}
+.btn-data a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:1300px){
+    .data{
+        height: 120vh;
+    }
+    .data-textbox{
+        
+        display: flex;
+        /* margin-top: 10rem; */
+    }    
+
+    .data-imagebox{
+    border: 2px solid orange;
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        }
+        .data-imagebox{
+            width: 100%;
+            height: 100%;
+        }
+
+
+}
+@media (max-width:990px){
+
+}

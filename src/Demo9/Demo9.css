@@ -1,0 +1,49 @@
+.footer{
+    height: 8vh;
+    /* border: 2px solid red; */
+    background: #333333;
+    
+    
+}
+.footer-container{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.footer-container p {
+color: white;
+}
+
+.social-icons{
+    /* border: 2px solid red; */
+    height: 5vh;
+    background: #333333;
+    
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 2rem;
+    color: white;
+    
+    
+}
+/* .icons li {
+    border: 2px solid white;
+    list-style: none;
+} */
+.gap{
+    margin: 0 1rem;
+    
+}
+/* }
+.icons-gap{
+    border: 2px solid green;
+    list-style: none;
+    
+} */
